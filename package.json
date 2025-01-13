@@ -1,0 +1,19 @@
+{
+  "name": "miniprogram-ts-sass-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "mor compile -w",
+    "build": "mor compile --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@morjs/core": "^1.0.111-alpha.0"
+  },
+  "devDependencies": {
+    "@morjs/cli": "^1.0.114-beta.15",
+    "miniprogram-api-typings": "^2.8.3-1"
+  }
+}
