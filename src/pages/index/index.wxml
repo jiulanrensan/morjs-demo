@@ -7,5 +7,6 @@
     <view class="usermotto">
       <text class="user-motto">{{motto}}</text>
     </view>
+    <aaa></aaa>
   </view>
 </scroll-view>

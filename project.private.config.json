@@ -3,5 +3,6 @@
   "projectname": "morjs-demo",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "2.32.3"
 }
