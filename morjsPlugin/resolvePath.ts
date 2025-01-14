@@ -13,25 +13,9 @@ export default class MorJSPluginResolvePath implements Plugin {
   wechatAlias = {}
 
   apply(runner: Runner) {
-    // webpackWrapper: 用于获取 webpackWrapper
-    runner.hooks.webpackWrapper.tap(this.name, (webpackWrapper) => {
-      // 保存 webpackWrapper 提供给后续流程调用
-      debugger
-    })
-
-    // compiler: 用于获取 webpack compiler
-    runner.hooks.compiler.tap(this.name, (compiler) => {
-      debugger
-    })
-
     // entryBuilder: 用于获取 entryBuilder
     runner.hooks.entryBuilder.tap(this.name, (entryBuilder) => {
       debugger
-    })
-    // shouldAddPageOrComponent: 用于判断是否要处理页面或组件
-    runner.hooks.shouldAddPageOrComponent.tap(this.name, (pageOrComponent) => {
-      debugger
-      return true
     })
 
     // addEntry: 添加 entry 时触发, 可用于修改 entry 相关信息
@@ -54,13 +38,14 @@ export default class MorJSPluginResolvePath implements Plugin {
      * 第一个读取的是app.json
      */
     runner.hooks.configParser.tap(this.name, (config, options) => {
-      // console.log('---------config', JSON.stringify(config))
-      // console.log('---------options', JSON.stringify(options))
-      debugger
-      // this.wechatAlias = getAlias(config, options)
-      // resolvePath(config, this.wechatAlias)
+      this.wechatAlias = getAlias(config, options)
       debugger
       return config
+    })
+    // scriptParser: script(js/ts) 文件解析 hook
+    runner.hooks.scriptParser.tap(this.name, (transformers, options) => {
+      debugger
+      return transformers
     })
   }
 }
@@ -75,10 +60,9 @@ function getAlias(config: Record<string, any>, options: FileParserOptions) {
 }
 
 /**
- * 解决以下路径
+ * 解析js/ts以下路径
  * 1. resolveAlias
- * 2. path/to/file
- * 3. /path/to/file 这种情况好像可以处理
+ * 2. /path/to/file 
  */
 function resolvePath(config: Record<string, any>, wechatAlias: Record<string, any>) {
   const { usingComponents } = config

@@ -9,8 +9,13 @@ export default defineConfig([
     name: 'wechat',
     sourceType: 'wechat',
     target: 'alipay',
+    // 对app.json 的 resolveAlias没有作用
+    // alias: {
+    //   '~': 'src'
+    // },
     plugins: [
       new MorJSPluginResolvePath()
-    ]
+    ],
+    
   }
 ])

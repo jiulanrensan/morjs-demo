@@ -12,7 +12,7 @@ app.json
   "pages": [],
    "subPackages": [],
    "window": {},
-   "tabBar": {}
+   "tabBar": {},
    "component2": true,
    "enableAppxNg": true,
    "enableNodeModuleBabelTransform": true,
