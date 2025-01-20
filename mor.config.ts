@@ -1,4 +1,5 @@
 import { defineConfig } from '@morjs/cli'
+import path from 'path'
 // 这样居然识别报错
 // import MorJSPluginResolvePath from 'morjsPlugin/resolvePath'
 import MorJSPluginResolvePath from './morjsPlugin/resolvePath'
@@ -9,10 +10,9 @@ export default defineConfig([
     name: 'wechat',
     sourceType: 'wechat',
     target: 'alipay',
-    // 对app.json 的 resolveAlias没有作用
-    // alias: {
-    //   '~': 'src'
-    // },
+    alias: {
+      '~': path.resolve(__dirname, 'src/')
+    },
     plugins: [
       new MorJSPluginResolvePath()
     ],
