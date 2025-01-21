@@ -4,6 +4,7 @@
   <view class="container">
     <view class="userinfo">
     </view>
+    <view catch:tap="addNum">addNum</view>
     <view class="usermotto">
       <text class="user-motto">{{motto}}</text>
     </view>

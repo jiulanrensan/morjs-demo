@@ -12,12 +12,18 @@
       "disablePlugins": [],
       "outputPath": ""
     },
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "package.json",
+        "miniprogramNpmDistDir": "./src"
+      }
+    ],
     "coverView": false,
     "postcss": false,
     "minified": false,
     "enhance": false,
     "showShadowRootInWxmlPanel": false,
-    "packNpmRelationList": [],
     "ignoreUploadUnusedFiles": true,
     "compileHotReLoad": false,
     "skylineRenderEnable": true

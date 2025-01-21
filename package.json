@@ -10,7 +10,9 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@morjs/core": "^1.0.111-alpha.0"
+    "@morjs/core": "^1.0.111-alpha.0",
+    "mobx-miniprogram": "^6.12.3",
+    "mobx-miniprogram-bindings": "^5.0.0"
   },
   "devDependencies": {
     "@morjs/cli": "^1.0.114-beta.15",
