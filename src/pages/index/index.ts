@@ -5,7 +5,7 @@ const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia0
 
 import { formatTime } from '~/utils/util'
 
-Component({
+Page({
   data: {
     motto: 'Hello World',
     userInfo: {

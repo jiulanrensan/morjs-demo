@@ -31,3 +31,21 @@ mini.project.json
   }
 }
 ```
+
+### 支付宝小程序不支持通过`Component`来构造页面
+见[社区](https://open.alipay.com/portal/forum/post/29501028)
+
+wxapp项目中有 3 处使用`Component`构造页面,有 2 处使用`ComponentWithStore`构造页面
+vscode搜索如下
+```
+// search
+Component(
+
+// search
+ComponentWithStore
+
+// files to exclude
+components,component,componentsSubPackage,, miniprogram_npm,sourceSubPackage
+```
+
+ComponentWithStore

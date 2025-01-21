@@ -2,7 +2,7 @@
 // const util = require('../../utils/util.js')
 import { formatTime } from '../../utils/util'
 
-Component({
+Page({
   data: {
     logs: [],
   },
