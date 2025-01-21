@@ -10,5 +10,7 @@
   "resolveAlias": {
     "~/*": "/*"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "globalObjectMode": "enable",
+  "requirePolyfill": true
 }

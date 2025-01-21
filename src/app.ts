@@ -1,4 +1,7 @@
 // app.ts
+// global.Symbol = Symbol
+// global.Map = Map
+// global.Set = Set
 App<IAppOption>({
   globalData: {},
   onLaunch() {

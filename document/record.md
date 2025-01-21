@@ -49,3 +49,25 @@ components,component,componentsSubPackage,, miniprogram_npm,sourceSubPackage
 ```
 
 ComponentWithStore
+
+### mobx报错`Error: [MobX] MobX requires global 'Symbol' to be available or polyfilled`
+
+也搜到相关问题：
+https://github.com/NervJS/taro/issues/14090
+https://github.com/NervJS/taro/issues/12979
+
+搜到一个[解决方法](https://github.com/NervJS/taro/issues/12979#issuecomment-1365019553)吗，但我还是报错。
+
+最后我的解决方法是：
+参考[文档](https://opendocs.alipay.com/mini/framework/implementation-detail)，基础库升级到2.9.3，`app.json`添加
+```json
+{
+  "globalObjectMode": "enable",
+  "requirePolyfill": true
+}
+```
+
+简单来说，支付宝小程序默认不对执行环境做任何处理，有些内置对象无法访问... todo
+
+
+### mobx报错`ReferenceError: Behavior is not defined`
