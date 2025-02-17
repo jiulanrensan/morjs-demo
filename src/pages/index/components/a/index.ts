@@ -1,4 +1,10 @@
+import b1 from '../../behavior/b1'
+/**
+ * 先缓存Component参数(简称 compParams)
+ * b1 作为对象传入，b1 的 definitionFilter的第一个参数是 compParams, 第二个参数是 b1.behaviors
+ */
 Component({
+  behaviors: [b1],
   options: {
     multipleSlots: true // 在组件定义时的选项中启用多slot支持
   },
