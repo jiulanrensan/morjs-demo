@@ -16,6 +16,12 @@ export default defineConfig([
     plugins: [
       new MorJSPluginResolvePath()
     ],
-    
+    autoInjectRuntime: {
+      app: true,
+      page: true,
+      component: true,
+      behavior: true,
+      api: true
+    }
   }
 ])
