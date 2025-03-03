@@ -5,6 +5,19 @@
 import { Behavior } from '@morjs/runtime-mini/lib/common/behaviorOrMixin'
 // import { aApp } from '@morjs/core'
 // import MorCompilerPlugin from '@morjs/plugin-compiler'
+
+import {initAdapters} from '@morjs/runtime-mini'
+import { createApi } from '@morjs/api'
+import { registerComponentAdapters, registerPageAdapters } from '@morjs/core'
+
+initAdapters({
+  sourceType: 'wechat',
+  target: 'alipay',
+  createApi,
+  registerComponentAdapters,
+  registerPageAdapters
+})
+
 function hackBehavior() {
   // global.Behavior = function (object) {
   //   object.mixins = object.behaviors || [] 
