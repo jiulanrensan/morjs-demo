@@ -3,7 +3,7 @@ import path from 'path'
 // 这样居然识别报错
 // import MorJSPluginResolvePath from 'morjsPlugin/resolvePath'
 import MorJSPluginResolvePath from './morjsPlugin/resolvePath'
-
+import {TransformUnsupportTagForAlipayPlugin } from './morjsPlugin/TransformUnsupportTagForAlipayPlugin'
 
 export default defineConfig([
   {
@@ -14,7 +14,8 @@ export default defineConfig([
       '~': path.resolve(__dirname, 'src/')
     },
     plugins: [
-      new MorJSPluginResolvePath()
+      // new MorJSPluginResolvePath()
+      new TransformUnsupportTagForAlipayPlugin()
     ],
     autoInjectRuntime: {
       app: true,
