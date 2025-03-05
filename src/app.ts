@@ -47,7 +47,6 @@ App<IAppOption>({
   onLaunch() {
     wx.setStorageSync('logs', [1,2,3,4,5])
     // 展示本地存储能力
-    debugger
     const logs = wx.getStorageSync('logs') || []
     console.log('logs', logs);
     const name = wx.getStorageSync('name') || []
