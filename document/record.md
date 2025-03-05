@@ -71,3 +71,8 @@ https://github.com/NervJS/taro/issues/12979
 
 
 ### mobx报错`ReferenceError: Behavior is not defined`
+todo
+
+### customTabBar
+
+### plugin
