@@ -12,4 +12,5 @@
   </view>
 </scroll-view>
 
-<custom-tab-bar />
+<pagoda-custom-tab-bar />
+<!-- <custom-tab-bar /> -->

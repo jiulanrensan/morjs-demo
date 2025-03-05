@@ -19,7 +19,7 @@
     "navigationStyle": "custom"
   },
   "usingComponents": {
-    "custom-tab-bar": "/components/customTabBar/index"
+    "pagoda-custom-tab-bar": "/components/customTabBar/index"
   },
   "resolveAlias": {
     "~/*": "/*"
