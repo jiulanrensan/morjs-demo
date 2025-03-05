@@ -5,3 +5,6 @@
     <view class="log-item">{{index + 1}}. {{log.date}}</view>
   </block>
 </scroll-view>
+
+
+<custom-tab-bar />

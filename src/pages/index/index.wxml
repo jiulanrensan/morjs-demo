@@ -11,3 +11,5 @@
     <aaa></aaa>
   </view>
 </scroll-view>
+
+<custom-tab-bar />

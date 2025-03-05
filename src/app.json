@@ -3,9 +3,23 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "pagePath": "pages/index/index"
+      }
+    ]
+  },
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "custom-tab-bar": "/components/customTabBar/index"
   },
   "resolveAlias": {
     "~/*": "/*"
