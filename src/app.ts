@@ -50,7 +50,12 @@ App<IAppOption>({
     const logs = wx.getStorageSync('logs') || []
     console.log('logs', logs);
     const name = wx.getStorageSync('name') || []
-    console.log('name', name);
+    /* #ifdef alipay */
+    console.log('name alipay', name);
+    /* #endif */
+    /* #ifdef wechat */
+    console.log('name wechat', name);
+    /* #endif */
   },
 },
 // [
