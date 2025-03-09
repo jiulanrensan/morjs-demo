@@ -2,45 +2,11 @@
 // global.Symbol = Symbol
 // global.Map = Map
 // global.Set = Set
-import { Behavior } from '@morjs/runtime-mini/lib/common/behaviorOrMixin'
-// import { aApp } from '@morjs/core'
-// import MorCompilerPlugin from '@morjs/plugin-compiler'
 
-import {initAdapters} from '@morjs/runtime-mini'
-import { createApi } from '@morjs/api'
-import { registerComponentAdapters, registerPageAdapters } from '@morjs/core'
-
-initAdapters({
-  sourceType: 'wechat',
-  target: 'alipay',
-  createApi,
-  registerComponentAdapters,
-  registerPageAdapters
-})
-
-function hackBehavior() {
-  // global.Behavior = function (object) {
-  //   object.mixins = object.behaviors || [] 
-  //   object.behaviors = void 0
-  //   return Mixin(object)
-  // }
-  global.Behavior = Behavior
-}
-
-function hackComponent() {
-  const origin = Component
-  Component = function (object) {
-    if (!object.options) object.options = {}
-    Object.assign(object.options, {
-      lifetimes: true
-    })
-    object.mixins = object.behaviors || []
-    object.behaviors = void 0
-    return origin.call(this, object)
-  }
-}
-hackBehavior()
-// hackComponent()
+/* #ifdef alipay */
+import { adaptersToAlipay, optionsAddDefaultFields } from './adapters/adaptersToAlipay';
+adaptersToAlipay()
+/* #endif */
 
 App<IAppOption>({
   globalData: {},
