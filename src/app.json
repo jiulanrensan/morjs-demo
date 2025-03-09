@@ -3,6 +3,14 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "subPackages": [
+    {
+      "root": "sourceSubPackage",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
   "tabBar": {
     "custom": true,
     "list": [
