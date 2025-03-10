@@ -1233,6 +1233,14 @@
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
 
+"@morjs/plugin-compiler-alipay@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-alipay/-/plugin-compiler-alipay-1.0.114-beta.17.tgz#fb459b28434acaa43df7cac1a45b846ca74334cc"
+  integrity sha512-DLVyEp9IYJ28IDmiGv9RGHXjXWQ6cEX83/vC4DAl03C8BT4aTgen3dzCRSa3arQJmopNiTaTSO5MwtOZ5RfL9w==
+  dependencies:
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
+
 "@morjs/plugin-compiler-baidu@1.0.114-beta.15":
   version "1.0.114-beta.15"
   resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-baidu/-/plugin-compiler-baidu-1.0.114-beta.15.tgz#fbc160d4a0359839e35e46d1cf37d0a0add894de"
@@ -1241,6 +1249,15 @@
     "@morjs/plugin-compiler-wechat" "1.0.114-beta.15"
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
+
+"@morjs/plugin-compiler-baidu@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-baidu/-/plugin-compiler-baidu-1.0.114-beta.17.tgz#f1d6b1b146790b6a23d4c62cacbddac3597db93c"
+  integrity sha512-ZTcJGhfJyXfJoqS7w52cfFHDGSciwukF/qfv3tAFwaTvxX6SS1WHSWyEcZjcsyjBGpmsqIvpBCvKQxIPsVsHWg==
+  dependencies:
+    "@morjs/plugin-compiler-wechat" "1.0.114-beta.17"
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
 
 "@morjs/plugin-compiler-bytedance@1.0.114-beta.15":
   version "1.0.114-beta.15"
@@ -1251,6 +1268,15 @@
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
 
+"@morjs/plugin-compiler-bytedance@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-bytedance/-/plugin-compiler-bytedance-1.0.114-beta.17.tgz#bc13d5b04d88371b01be116ec9cfb3d7019e605f"
+  integrity sha512-BhVIrM0fOSSl7PkmVKRwU16SBoMbQiqSOUErP1aU00TBX/WzINH7xyXONjMKFgjmilGiqBethTjk9pTT7R8PLA==
+  dependencies:
+    "@morjs/plugin-compiler-wechat" "1.0.114-beta.17"
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
+
 "@morjs/plugin-compiler-dingding@1.0.114-beta.15":
   version "1.0.114-beta.15"
   resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-dingding/-/plugin-compiler-dingding-1.0.114-beta.15.tgz#5ecaebdc828d749209785810127603137762b456"
@@ -1258,6 +1284,14 @@
   dependencies:
     "@morjs/plugin-compiler-alipay" "1.0.114-beta.15"
     "@morjs/utils" "1.0.114-beta.15"
+
+"@morjs/plugin-compiler-dingding@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-dingding/-/plugin-compiler-dingding-1.0.114-beta.17.tgz#8991abdfc5638035c7351ef364842705f6dfcbe3"
+  integrity sha512-NTU2nouYCMi6nTR8E2TFjZaL4b3Z4iYTVYm4ri/tsjsVR2OFjtXT6tM6o5wJ90ybq0b7Mlpw7Q3JBdA/7mRJuQ==
+  dependencies:
+    "@morjs/plugin-compiler-alipay" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
 
 "@morjs/plugin-compiler-kuaishou@1.0.114-beta.15":
   version "1.0.114-beta.15"
@@ -1268,6 +1302,15 @@
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
 
+"@morjs/plugin-compiler-kuaishou@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-kuaishou/-/plugin-compiler-kuaishou-1.0.114-beta.17.tgz#2f5070ba4c6ecc2574cb2eca94ccb525a5d991d5"
+  integrity sha512-MPAUwhJbmmAkTYmA443OEpMc/Y9SXzYqrefXpb+5kypTaZFBUdQNXsPSNjnKj67ZvjA8Yc7d5ez0hsfqn3ROPw==
+  dependencies:
+    "@morjs/plugin-compiler-wechat" "1.0.114-beta.17"
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
+
 "@morjs/plugin-compiler-qq@1.0.114-beta.15":
   version "1.0.114-beta.15"
   resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-qq/-/plugin-compiler-qq-1.0.114-beta.15.tgz#3a221206fa2241ad257948e7c2ac346a5c863e19"
@@ -1277,6 +1320,15 @@
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
 
+"@morjs/plugin-compiler-qq@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-qq/-/plugin-compiler-qq-1.0.114-beta.17.tgz#cabd18ffb3b9276f74ae10ca36e7947eebf72d6d"
+  integrity sha512-OD3bJL2pj3BS0Dp30y2Rza6bCymay59Q9mji+GlYwdFLtRW0HYJmgG8L/Ls0dKhh0pMNqEPAp6u6JM/g/AtekQ==
+  dependencies:
+    "@morjs/plugin-compiler-wechat" "1.0.114-beta.17"
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
+
 "@morjs/plugin-compiler-taobao@1.0.114-beta.15":
   version "1.0.114-beta.15"
   resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-taobao/-/plugin-compiler-taobao-1.0.114-beta.15.tgz#9ac107ac32d0dd7e2d3c00203318cd93c4fca56a"
@@ -1284,6 +1336,14 @@
   dependencies:
     "@morjs/plugin-compiler-alipay" "1.0.114-beta.15"
     "@morjs/utils" "1.0.114-beta.15"
+
+"@morjs/plugin-compiler-taobao@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-taobao/-/plugin-compiler-taobao-1.0.114-beta.17.tgz#e2074bea544bb2a076f2eeb862af2a385da0be51"
+  integrity sha512-lej0gllTbgmBqKDqcXcyPqU8lgUr+2Y9KrzZkqH+BaU8yg+ZmoOQUeN0UU4cvECqETRTAnYXQ4AHYRjr7258tg==
+  dependencies:
+    "@morjs/plugin-compiler-alipay" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
 
 "@morjs/plugin-compiler-web@1.0.114-beta.15":
   version "1.0.114-beta.15"
@@ -1297,6 +1357,18 @@
     postcss "7.0.39"
     postcss-import-sync "7.1.4"
 
+"@morjs/plugin-compiler-web@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-web/-/plugin-compiler-web-1.0.114-beta.17.tgz#4876be25452d42cf5c064a068d8cdc252ecbf8e3"
+  integrity sha512-ijHg46ZD4Y5gdT7K5kaeI7KgO+mYkR8SoHjzWfZB1NEYTLhb5kRkOHWcozA3186fzzTjAAV1VVjiyZV7znjLrA==
+  dependencies:
+    "@babel/runtime" "7.21.0"
+    "@morjs/plugin-compiler-alipay" "1.0.114-beta.17"
+    "@morjs/runtime-web" "1.0.114-beta.15"
+    "@morjs/utils" "1.0.114-beta.17"
+    postcss "7.0.39"
+    postcss-import-sync "7.1.4"
+
 "@morjs/plugin-compiler-wechat@1.0.114-beta.15":
   version "1.0.114-beta.15"
   resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-wechat/-/plugin-compiler-wechat-1.0.114-beta.15.tgz#91ee79d6adc7b51a6d014483548b8b4533aa24d4"
@@ -1304,6 +1376,14 @@
   dependencies:
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
+
+"@morjs/plugin-compiler-wechat@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler-wechat/-/plugin-compiler-wechat-1.0.114-beta.17.tgz#0da3ab099453684e79c06022fa6eb068de0d2380"
+  integrity sha512-9MbUuKEh8mVzW5aHQzrKY+qmk7AzIyWawqMcbtDHF1NgniyHbuWwv7J+rvgJX4Mav7za6FecQkyMQbtS2st6AA==
+  dependencies:
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
 
 "@morjs/plugin-compiler@1.0.114-beta.15":
   version "1.0.114-beta.15"
@@ -1322,6 +1402,29 @@
     "@morjs/plugin-compiler-wechat" "1.0.114-beta.15"
     "@morjs/runtime-mini" "1.0.114-beta.0"
     "@morjs/utils" "1.0.114-beta.15"
+    nanoid "3.3.4"
+    postcss-selector-parser "6.0.11"
+    tslib "^2.3.1"
+    webpack-bundle-analyzer "4.8.0"
+    xregexp "5.1.1"
+
+"@morjs/plugin-compiler@^1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/plugin-compiler/-/plugin-compiler-1.0.114-beta.17.tgz#63b1af9b487e0b85fe82968042eb0e19d63c0fc2"
+  integrity sha512-C9DI+WBO9e6o1nCO5+o3yaZJJPbqpgkQAPxz9rgRAX+/mUpfbO5ar3RQOFxIDp8BF6L9NvFYp8AiwSs8nFYT2w==
+  dependencies:
+    "@morjs/api" "1.0.69"
+    "@morjs/plugin-compiler-alipay" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-baidu" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-bytedance" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-dingding" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-kuaishou" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-qq" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-taobao" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-web" "1.0.114-beta.17"
+    "@morjs/plugin-compiler-wechat" "1.0.114-beta.17"
+    "@morjs/runtime-mini" "1.0.114-beta.17"
+    "@morjs/utils" "1.0.114-beta.17"
     nanoid "3.3.4"
     postcss-selector-parser "6.0.11"
     tslib "^2.3.1"
@@ -1369,6 +1472,18 @@
   version "1.0.114-beta.0"
   resolved "https://registry.npmmirror.com/@morjs/runtime-mini/-/runtime-mini-1.0.114-beta.0.tgz#33e28cf88be7ca3f9529a45d7e711b80e07c432f"
   integrity sha512-MIfn7fAn2ecPjkJ94O6mjxeh4HaHEHE6R4i3Giwoe9w6zosxfdjY9avAiXrEoGYBUHo3CnFq+v8sagGJSnkumQ==
+  dependencies:
+    "@morjs/runtime-base" "1.0.69"
+    clone-deep "^4.0.1"
+    lodash.get "^4.4.2"
+    lodash.has "^4.5.2"
+    lodash.set "^4.3.2"
+    tslib "^2.3.1"
+
+"@morjs/runtime-mini@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/runtime-mini/-/runtime-mini-1.0.114-beta.17.tgz#089d181f2bf0a3641c7c2217c6c9ec0365586d3a"
+  integrity sha512-/ALNcTComL3rk61rm+BTvtJLWMDOLHe8W4z8cyCs6O0sc8iNBo97/5ga2QOgN0G+djrbXsxHGMs92RYtotoXeA==
   dependencies:
     "@morjs/runtime-base" "1.0.69"
     clone-deep "^4.0.1"
@@ -1458,6 +1573,68 @@
     stylus "0.59.0"
     stylus-loader "6.2.0"
     takin "1.0.114-beta.15"
+    terser-webpack-plugin "5.3.7"
+    typescript "4.4.4"
+    uglify-js "3.17.4"
+    webpack "5.76.0"
+    webpack-chain-5 "8.0.2"
+    webpack-dev-server "4.11.1"
+
+"@morjs/utils@1.0.114-beta.17":
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/@morjs/utils/-/utils-1.0.114-beta.17.tgz#78622d1dc46b8452be9306f9b561a51b0b0a1938"
+  integrity sha512-DliGBAI0wud4qwzEgPxCPsXDSTjgNPlq46C4gKz/IGBKRvX8J6POHN5Dyampvo8DWEbG1uQKFyzqnkr9VMWJmw==
+  dependencies:
+    "@babel/core" "7.21.0"
+    "@babel/generator" "7.21.1"
+    "@babel/parser" "7.21.2"
+    "@babel/plugin-transform-react-jsx" "7.21.0"
+    "@babel/plugin-transform-runtime" "7.21.0"
+    "@babel/preset-env" "7.20.2"
+    "@babel/preset-react" "7.18.6"
+    "@babel/template" "7.20.7"
+    "@babel/traverse" "7.21.2"
+    "@babel/types" "7.21.2"
+    "@parcel/css" "1.8.3"
+    "@swc/core" "1.3.40"
+    "@types/babel__core" "7.20.0"
+    "@types/babel__generator" "7.6.4"
+    "@types/babel__template" "7.4.1"
+    "@types/babel__traverse" "7.18.3"
+    "@types/micromatch" "4.0.2"
+    "@types/uglify-js" "3.17.1"
+    "@types/webpack" "5.28.0"
+    babel-loader "8.3.0"
+    babel-plugin-add-module-exports "1.0.4"
+    cjstoesm "1.1.4"
+    clean-css "5.3.2"
+    console-png "1.2.1"
+    copy-webpack-plugin "9.1.0"
+    css-loader "6.7.3"
+    css-minimizer-webpack-plugin "3.4.1"
+    csso "4.2.0"
+    enhanced-resolve "5.12.0"
+    esbuild "0.17.11"
+    glob-to-regexp "0.4.1"
+    html-minimizer-webpack-plugin "3.5.0"
+    html-webpack-plugin "5.5.0"
+    less "4.1.3"
+    less-loader "10.2.0"
+    memfs "3.4.13"
+    micromatch "4.0.5"
+    mini-css-extract-plugin "2.7.3"
+    p-queue "6.6.2"
+    p-retry "4.6.2"
+    postcss "8.4.21"
+    posthtml "0.16.6"
+    qr-image "3.2.0"
+    sass "1.60.0"
+    sass-loader "12.6.0"
+    slash "3.0.0"
+    style-loader "3.3.1"
+    stylus "0.59.0"
+    stylus-loader "6.2.0"
+    takin "1.0.114-beta.17"
     terser-webpack-plugin "5.3.7"
     typescript "4.4.4"
     uglify-js "3.17.4"
@@ -5862,6 +6039,36 @@ takin@1.0.114-beta.15:
   version "1.0.114-beta.15"
   resolved "https://registry.npmmirror.com/takin/-/takin-1.0.114-beta.15.tgz#ad50b02f7027880dcbed2f527eac1bf2a9e313f6"
   integrity sha512-0O6T1sINCoj1wqP/bAGp1uPak6yAwk2sP0wRws4E33ZI8FqTHFktCwPISCPvgJEk3wlnT/OIy3S6/k+gJVocfQ==
+  dependencies:
+    "@types/debug" "4.1.7"
+    "@types/fs-extra" "9.0.13"
+    "@types/lodash" "4.14.191"
+    "@types/prompts" "2.4.2"
+    "@types/tar-fs" "2.0.1"
+    chalk "4.1.2"
+    debug "4.3.4"
+    dotenv "16.0.3"
+    esbuild "0.17.11"
+    execa "5.1.1"
+    fast-glob "3.2.12"
+    fs-extra "10.1.0"
+    get-npm-tarball-url "2.0.3"
+    got "11.8.3"
+    json5 "2.2.3"
+    jsonc-parser "3.2.0"
+    lodash "4.17.21"
+    mri "1.2.0"
+    prompts "2.4.2"
+    registry-url "5.1.0"
+    tapable "2.2.1"
+    tar-fs "2.1.1"
+    wcwidth "1.0.1"
+    zod "3.21.4"
+
+takin@1.0.114-beta.17:
+  version "1.0.114-beta.17"
+  resolved "https://registry.npmmirror.com/takin/-/takin-1.0.114-beta.17.tgz#beeb3359df6d342d00dc2c2d2f005d5cd518d296"
+  integrity sha512-12ANQ0hO5uZhUMPXwusr8rrOpTR48jIP6tptuktMNJSDZa01kgv37krtig69Mx0e+vINCbvBl30kPsAKKUjLcQ==
   dependencies:
     "@types/debug" "4.1.7"
     "@types/fs-extra" "9.0.13"

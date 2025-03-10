@@ -11,6 +11,7 @@
   "license": "",
   "dependencies": {
     "@morjs/core": "^1.0.111-alpha.0",
+    "@morjs/plugin-compiler": "^1.0.114-beta.17",
     "mobx-miniprogram": "^6.12.3",
     "mobx-miniprogram-bindings": "^5.0.0"
   },

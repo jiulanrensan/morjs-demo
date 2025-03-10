@@ -1,6 +1,7 @@
 /**
  * !function() { ... }() 用于立即执行一个匿名函数
  * 声明commonjs用法
+ * 声明模块加载方法
  */
  (function() { // webpackBootstrap
  	"use strict";
