@@ -5,7 +5,7 @@ const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia0
 import { createStoreBindings } from 'mobx-miniprogram-bindings'
 import { formatTime } from '~/utils/util'
 import { indexStore } from './store'
-
+const test = require.async('../../sourceSubPackage/utils/test')
 Page({
   data: {
     motto: 'Hello World',
@@ -23,6 +23,10 @@ Page({
       store: indexStore,
       fields: ['numA', 'numB'],
       actions: ['update']
+    })
+    test.then(res => {
+      console.log('test res', res);
+      
     })
   },
   onUnload() {
