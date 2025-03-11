@@ -8,7 +8,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "debug node_module",
       "skipFiles": [
         "<node_internals>/**"
       ],
@@ -18,6 +18,18 @@
         "${workspaceFolder}/**/*.js",
         "${workspaceFolder}/node_modules/@morjs/**/*.js"
       ]
-    }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "debug mini",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "dist/alipay/app.js",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js",
+      ]
+    },
   ]
 }
