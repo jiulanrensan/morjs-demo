@@ -4,7 +4,7 @@ import path from 'path'
 // import MorJSPluginResolvePath from 'morjsPlugin/resolvePath'
 import MorJSPluginResolvePath from './morjsPlugin/resolvePath'
 import {TransformUnsupportTagForAlipayPlugin } from './morjsPlugin/TransformUnsupportTagForAlipayPlugin'
-import MorCompilerPlugin from '@morjs/plugin-compiler'
+// import MorCompilerPlugin from '@morjs/plugin-compiler'
 
 export default defineConfig([
   {
@@ -17,7 +17,7 @@ export default defineConfig([
     plugins: [
       // new MorJSPluginResolvePath()
       new TransformUnsupportTagForAlipayPlugin(),
-      new MorCompilerPlugin()
+      // new MorCompilerPlugin()
     ],
     conditionalCompile: {
       // fileExt 支持配置配置单个或多个, 如 { fileExt: '.my' } 或 { fileExt: ['.my', '.share'] }
@@ -25,6 +25,9 @@ export default defineConfig([
       // 以 { fileExt: ['.my', '.share'] } 为例
       // 优先查找 xxxx.my.xx, 如无则查找 xxxx.share.xx, 如无则查找 xxxx.xx 文件
       fileExt: '.my'
+    },
+    customEntries: {
+      'sourceSubPackage/utils/test': 'src/sourceSubPackage/utils/test.ts'
     }
     // autoInjectRuntime: {
     //   app: true,

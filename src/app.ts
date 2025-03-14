@@ -8,9 +8,14 @@ import { adaptersToAlipay, optionsAddDefaultFields } from './adapters/adaptersTo
 adaptersToAlipay()
 /* #endif */
 
+import { formatTime } from '~/utils/util'
+
+// @ts-ignore
+const test = __non_webpack_require__.async('./sourceSubPackage/utils/test')
 App<IAppOption>({
   globalData: {},
   onLaunch() {
+    console.log('format', formatTime(new Date()));
     wx.setStorageSync('logs', [1,2,3,4,5])
     // 展示本地存储能力
     const logs = wx.getStorageSync('logs') || []
@@ -22,6 +27,10 @@ App<IAppOption>({
     /* #ifdef wechat */
     console.log('name wechat', name);
     /* #endif */
+    test.then(res => {
+      res.print('test')
+      console.log('test res');
+    })
   },
 },
 // [
